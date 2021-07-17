@@ -1,5 +1,5 @@
 #include <iostream>
-#include <deque>
+#include <deque>//inbuilt stl library
 
 using namespace std;
 
