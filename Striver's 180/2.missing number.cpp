@@ -1,4 +1,5 @@
 ##Brute force
+
 #1
 class Solution {
 public:
