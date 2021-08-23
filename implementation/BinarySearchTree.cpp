@@ -1,5 +1,5 @@
 // C++ program to demonstrate insertion
-// in a BST recursively.
+
 #include <iostream>
 using namespace std;
 
