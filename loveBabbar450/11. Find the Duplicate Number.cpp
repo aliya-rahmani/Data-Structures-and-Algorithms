@@ -12,4 +12,22 @@ public:
         return 0;
         
     }
+};.
+    
+    
+//2
+class Solution {
+public:
+
+int findDuplicate(vector<int>& arr) {
+    int n = arr.size(), i = 0;
+    while(i < n - 1)
+    {
+        if(arr[arr[0]] != arr[0])
+            swap(arr[0], arr[arr[0]]);
+        else
+            return arr[0];
+    }
+    return arr[0];
+}
 };
