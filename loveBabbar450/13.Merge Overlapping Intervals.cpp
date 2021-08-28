@@ -46,4 +46,10 @@ void mergeIntervals(Interval arr[], int n)
 }
 
 // Driver program
-
+int main()
+{
+	Interval arr[] = { {6,8}, {1,9}, {2,4}, {4,7} };
+	int n = sizeof(arr)/sizeof(arr[0]);
+	mergeIntervals(arr, n);
+	return 0;
+}
