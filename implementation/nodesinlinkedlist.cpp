@@ -79,3 +79,26 @@ void rearrangeOddEven(Node* head)
 	}
 }
 
+// Driver code
+int main()
+{
+	Node* head = newNode(8);
+	head = insertBeg(head, 7);
+	head = insertBeg(head, 6);
+	head = insertBeg(head, 5);
+	head = insertBeg(head, 3);
+	head = insertBeg(head, 2);
+	head = insertBeg(head, 1);
+
+	cout << "Linked List:" << endl;
+	printList(head);
+	rearrangeOddEven(head);
+
+	cout << "Linked List after "
+		<< "Rearranging:" << endl;
+	printList(head);
+
+	return 0;
+}
+
+
