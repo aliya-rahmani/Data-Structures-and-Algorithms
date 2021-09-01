@@ -69,4 +69,14 @@ int main()
 	s.push(30);
 	cout << s.pop() << " Popped from stack\n";
 	//print all elements in stack :
+	cout<<"Elements present in stack : ";
+	while(!s.isEmpty())
+	{
+		// print top element in stack
+		cout<<s.peek()<<" ";
+		// remove top element in stack
+		s.pop();
+	}
 
+	return 0;
+}
