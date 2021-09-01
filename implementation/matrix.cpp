@@ -1,5 +1,5 @@
-// C++ Program to print the elements of a
-// Two-Dimensional array
+C++ Program to print the elements of a
+Two-Dimensional array
 #include<iostream>
 using namespace std;
 
