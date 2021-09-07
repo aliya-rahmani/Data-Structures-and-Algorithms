@@ -1,2 +1,2 @@
 # Data-Structures-and-Algorithms
-Resources and code snippets for interview cracking 
+Resources and code snippets for cracking  interviews
