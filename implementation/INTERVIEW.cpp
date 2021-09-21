@@ -1,3 +1,19 @@
+13) What does the dummy header in the linked list contain?
+In a linked list, the dummy header consists of the first record of the actual data.
+
+
+14) Mention a few applications of Linked Lists?
+Few of the main applications of Linked Lists are:
+
+Linked Lists let us implement queues, stacks, graphs, etc.
+Linked Lists let us insert elements at the beginning and end of the list.
+15) How can you insert a node to the beginning of a singly linked list?
+To insert the node to the beginning of the list, we need to follow these steps:
+
+Create a new node
+Insert new node by assigning the head pointer to the new node's next pointer
+Update the head pointer to point the new node
+
 16) Name some applications which use Linked Lists.
 Both queues and stacks can be implemented using a linked list. Some of the other applications that use linked list are a binary tree, skip, unrolled linked list, hash table, etc.
 
