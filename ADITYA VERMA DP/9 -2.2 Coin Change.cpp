@@ -1,5 +1,5 @@
 //numbers of coin needed for making it change
-
+//maximum no. of ways to make amount from the given dominations
 class Solution {
 public:
     int helper(vector<int>& arr, int n,int w){
